@@ -42,6 +42,12 @@ export default function OnboardingTutorial() {
             route: '/base'
         },
         {
+            targetSelector: '.tour-tab-base',
+            title: 'Desactiva platos individuales',
+            desc: 'Entra a cualquier categoría tocándola y verás todos sus platos. Desde ahí puedes apagar uno a uno los que no quieras que salgan en la generación.',
+            route: '/base',
+        },
+        {
             targetSelector: '.tour-tab-menu',
             title: 'Opciones y Premium',
             desc: 'En Ajustes encontrarás opciones extra, como quitar los anuncios de por vida o dejarnos 5 estrellas. ¡Eso es todo!',
